@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations Page</title>
+    <link rel="stylesheet" href="donation2.css">
+</head>
+<body>
+    <header>
+        <h1>Humane Society Donations</h1>
+        <h2>Help the Animals</h2>
+    </header>
+    <section id="outer">
+        <h2 class="info">Donation Information</h2>
+        <p class="red">
+            We will send you a free one year e-magazine subscription for all donations!
+        </p>
+        <form action="handle_donation2.php" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name" maxlength=20>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" maxlength=20>
+
+            <label for="email">Email Address</label>
+            <input type="text" name="email" id="email" placeholder="Email Address" maxlength=20>
+
+            <label for="amount">Donation</label>
+            <input type="number" name="amount" id="amount" placeholder="amount" maxlength=10>
+            
+            <input class="input_ck" type="checkbox" name="subscription" id="subscription" value="no_subscription">
+            <label for="subscription">Check if you do not want a free one year subscription</label>
+            
+            <input type="submit" value="Send in My Donation">
+
+            <input type="reset" value="Clear Form">
+        </form>
+    </section>
+</body>
+</html>
