@@ -1,2 +1,2 @@
 # Donations
-A demonstration of using PHP with HTML to validate user entries and conditionally display output
+A demonstration of using PHP with HTML to validate user entries and conditionally display output based on their selection
